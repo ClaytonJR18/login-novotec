@@ -1,0 +1,53 @@
+body{
+
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: darkseagreen;
+
+}
+
+.cabeca{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+img{
+    width: 10rem;
+    box-shadow: 7px 7px 0 #393939;
+    border: 1px solid black;
+}
+
+form{
+
+    margin: 100px;    
+    background-color: #da4c82; 
+    text-align: center;
+    border: 2px solid black;
+}
+
+.dados{
+    text-align:center;
+}
+
+
+#botao{
+
+    height: 40px;
+    margin: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b120b6;
+    color: #090B0B;
+    font-size: 20px;
+}
+
+#botao:hover{
+    background-color: blueviolet;
+    transition: 2000ms;
+}
+
